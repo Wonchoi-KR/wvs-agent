@@ -1,2 +1,6 @@
 # wvs-agent
-Local LLM + RAG for World Values Survey: retrieve variables, run weighted stats, explain country comparisons.
+
+A tiny local RAG-LLM agent that answers questions using the **World Values Survey** (WVS) by:
+- finding the right variable from a codebook (retrieval),
+- doing **weighted** analysis in Python,
+- and explaining results in plain language.
